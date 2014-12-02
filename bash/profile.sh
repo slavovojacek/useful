@@ -1,7 +1,7 @@
 #!/bin/bash
 export PS1='[\t] \w/ '
 
-### Increase bash history
+### Increase terminal history
 HISTFILESIZE=10000000
 
 ### Alias for push
