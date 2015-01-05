@@ -1,0 +1,35 @@
+# Gets stats on against last commit.
+git diff HEAD --stat
+
+
+# Merges branch without fast-forward, forces commit message
+git merge <branch> --no-ff
+
+
+# After changes have been made...
+git stash
+
+# Do some other stuff here, like switch branches, merge other changes, etc.
+
+#Re-apply the changes
+git stash pop
+
+
+# Delete branch locally
+git branch -d newfeature
+
+
+# Delete branch remotely
+git push origin :newfeature
+
+
+# Create a Tag
+git tag <tagName>
+
+
+# Delete the tag
+git tag -d <tagName>
+
+
+# Push Tags
+git push --tags
