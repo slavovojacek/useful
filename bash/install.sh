@@ -31,3 +31,6 @@ brew cask install intellij-idea-ce
 
 # Install phpstorm
 brew cask install phpstorm
+
+# Install ifstat
+brew cask install ifstat
