@@ -12,5 +12,11 @@ HISTFILESIZE=10000000
 ### Add Alias for push.sh (can be found in the same repo dir)
 alias push='bash push.sh'
 
-### Add Alias for ifstat -> logs internet stats to ~/ifstat.log (argument needed, e.g. en0 or wlan)
-alias ifstat='ifstat -t -i $1 | tee ~/ifstat.log'
+### Alias for ls
+alias ls='ls -G'
+
+### Alias for ls -al
+alias lsa='ls -al -G'
+
+### Add Alias for ifstat -> logs internet stats to ~/internetStat.log (change e$
+alias istats='ifstat -t -i en0 | tee ~/ifstat.log'
