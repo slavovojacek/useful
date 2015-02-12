@@ -17,6 +17,9 @@ brew cask install google-chrome
 # Install sublime-text
 brew cask install sublime-text
 
+# Install node
+brew install node
+
 # Install java
 brew cask install java
 
