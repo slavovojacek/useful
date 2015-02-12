@@ -1,9 +1,15 @@
 #!/bin/bash
 
-### @credits to https://github.com/samthebest
+### Some credits go to https://github.com/samthebest
 
 # Install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Before brew install, run brew doctor. If there is a problem with ownership
+# take it using $ sudo chown -R $USER /usr/local/{DIR}
+
+# Install Git
+brew install git
 
 # Install brew cask (makes it easier to install mac apps)
 brew install caskroom/cask/brew-cask
