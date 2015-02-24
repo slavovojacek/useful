@@ -18,5 +18,7 @@ alias ls='ls -G'
 ### Alias for ls -al
 alias lsa='ls -al -G'
 
-### Add Alias for ifstat -> logs internet stats to ~/internetStat.log (change e$
-alias istats='ifstat -t -i en0 | tee ~/ifstat.log'
+### Add Alias for grepping bash history (takes param)
+function gh {
+        cat ~/.bash_history | grep $1
+}
