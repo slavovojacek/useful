@@ -10,11 +10,20 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #
 # Make sure to run brew update and brew upgrade periodically
 
+# Install ruby
+brew install ruby
+
 # Install Git
 brew install git
 
+# Install Ruby SASS
+sudo gem install sass
+
 # Install node
 brew install node
+
+# Install pow
+brew install pow
 
 # Install brew cask (makes it easier to install mac apps)
 brew install caskroom/cask/brew-cask
