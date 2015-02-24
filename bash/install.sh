@@ -1,7 +1,5 @@
 #!/bin/bash
 
-### Some credits go to https://github.com/samthebest
-
 # Install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -63,3 +61,5 @@ brew install imagemagick
 
 # Install wget
 brew install wget
+
+### Original credits: samthebest
