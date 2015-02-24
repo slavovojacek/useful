@@ -25,6 +25,9 @@ brew cask install spectacle
 # Install google-chrome
 brew cask install google-chrome
 
+# Install spotify (concentration)
+brew cask install spotify
+
 # Install sublime-text
 brew cask install sublime-text
 
@@ -48,3 +51,6 @@ brew install sbt
 
 # Install imagemagick
 brew install imagemagick
+
+# Install wget
+brew install wget
