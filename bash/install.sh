@@ -8,58 +8,47 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #
 # Make sure to run brew update and brew upgrade periodically
 
-# Install ruby
+brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
+
+### Makes it easier to update when installed via Homebrew
+brew install git # The best version-control
 brew install ruby
-
-# Install Git
-brew install git
-
-# Install Ruby SASS
-sudo gem install sass
-
-# Install node
 brew install node
-
-# Install pow
-brew install pow
-
-# Install brew cask (makes it easier to install mac apps)
-brew install caskroom/cask/brew-cask
-
-# Install spectacle
-brew cask install spectacle
-
-# Install google-chrome
-brew cask install google-chrome
-
-# Install spotify (concentration)
-brew cask install spotify
-
-# Install sublime-text
-brew cask install sublime-text
-
-# Install intellij-idea-ce (Community edition)
-brew cask install intellij-idea-ce
-
-# Install phpstorm
-brew cask install phpstorm
-
-# Install ifstat
-brew cask install ifstat
-
-# Install java
-brew cask install java
-
-# Install scala
 brew install scala
 
-# Install sbt
-brew install sbt
+### Core apps
+brew cask install --appdir="~/Applications" spectacle # Windows management
+brew cask install --appdir="~/Applications" google-chrome
+brew cask install --appdir="~/Applications" sublime-text # Best text editor
+brew cask install --appdir="~/Applications" spotify # Concentration
+brew cask install --appdir="~/Applications" transmit # FTP slavery
+brew cask install --appdir="~/Applications" slack
+brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="~/Applications" skype
+brew cask install --appdir="~/Applications" mailbox
+brew cask install --appdir="~/Applications" dash
+brew cask install --appdir="~/Applications" dashlane
+brew cask install --appdir="~/Applications" gitx
+brew cask install --appdir="~/Applications" java
+brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
+brew cask install --appdir="~/Applications" google-drive # hmmmmmmmm
 
-# Install imagemagick
-brew install imagemagick
+### Hard-core development apps
+brew cask install --appdir="~/Applications" intellij-idea-ce
+brew cask install --appdir="~/Applications" phpstorm
+brew cask install --appdir="~/Applications" webstorm
 
-# Install wget
+### Other essentials
 brew install wget
+brew install pow # Easy proxying
+brew install sbt
+brew install imagemagick
+brew install ifstat # To get money back from internet providers
 
-### Original credits: samthebest
+# cleanup
+brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
+
+# Front-end development
+sudo gem install sass
+sudo npm install gulp -g
