@@ -20,5 +20,8 @@ alias lsa='ls -al -G'
 
 ### Add Alias for grepping bash history (takes param)
 function gh {
-        cat ~/.bash_history | grep $1
+	cat ~/.bash_history | grep $1
 }
+
+### A funny alias to replace ls and cd after a person has left their laptop unlocked
+alias funny='printf "\n\nAn extensive policy breach detected. Please stay at your desk as security personel will assist you out of the building.\n\n"'
