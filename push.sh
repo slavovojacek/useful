@@ -5,11 +5,10 @@ branch_name=${branch_name##refs/heads/}
 branch_name=${branch_name:-HEAD}
 
 git diff HEAD --stat
-printf "\n"
+printf "\n\n"
 git status
-printf "\n"
 
-printf "\nDo you wish to commit and push to branch ${branch_name}?\nThe commit message is: ${1}\n"
+printf "\n\n\nDo you wish to commit and push to branch ${branch_name}?\nThe commit message is: ${1}\n"
 
 select yn in "Yes" "No"; do
     case $yn in
