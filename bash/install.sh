@@ -13,6 +13,7 @@ brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
 ### Makes it easier to update when installed via Homebrew
 brew install git # The best version-control
 brew install ruby
+brew install python
 brew install node
 brew install scala
 
