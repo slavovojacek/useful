@@ -30,6 +30,7 @@ brew cask install --appdir="~/Applications" dash
 brew cask install --appdir="~/Applications" dashlane
 brew cask install --appdir="~/Applications" gitx
 brew cask install --appdir="~/Applications" java
+brew cask install --appdir="~/Applications" sketch
 brew cask install --appdir="~/Applications" adobe-creative-cloud
 brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
 brew cask install --appdir="~/Applications" google-drive # hmmmmmmmm
