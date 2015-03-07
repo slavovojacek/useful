@@ -31,6 +31,7 @@ brew cask install --appdir="~/Applications" dashlane
 brew cask install --appdir="~/Applications" gitx
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" sketch
+brew cask install --appdir="~/Applications" steam
 brew cask install --appdir="~/Applications" utorrent
 brew cask install --appdir="~/Applications" adobe-creative-cloud
 brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
