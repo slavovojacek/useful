@@ -12,33 +12,33 @@ brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
 
 ### Makes it easier to update when installed via Homebrew
 brew install git # The best version-control
-brew install ruby
-brew install python
 brew install node
+brew install python
+brew install ruby
 brew install scala
 
 ### Core apps
-brew cask install --appdir="~/Applications" spectacle # Windows management
-brew cask install --appdir="~/Applications" google-chrome
-brew cask install --appdir="~/Applications" sublime-text # Best text editor
-brew cask install --appdir="~/Applications" spotify # Concentration
-brew cask install --appdir="~/Applications" transmit # FTP slavery
-brew cask install --appdir="~/Applications" slack
-brew cask install --appdir="~/Applications" vlc
-brew cask install --appdir="~/Applications" skype
-brew cask install --appdir="~/Applications" mailbox
+brew cask install --appdir="~/Applications" adobe-creative-cloud
+brew cask install --appdir="~/Applications" appcleaner
 brew cask install --appdir="~/Applications" dash
 brew cask install --appdir="~/Applications" dashlane
-brew cask install --appdir="~/Applications" gitx
-brew cask install --appdir="~/Applications" java
-brew cask install --appdir="~/Applications" sketch
-brew cask install --appdir="~/Applications" steam
-brew cask install --appdir="~/Applications" mumble
-brew cask install --appdir="~/Applications" appcleaner
-brew cask install --appdir="~/Applications" utorrent
-brew cask install --appdir="~/Applications" adobe-creative-cloud
 brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
+brew cask install --appdir="~/Applications" gitx
 brew cask install --appdir="~/Applications" google-drive # hmmmmmmmm
+brew cask install --appdir="~/Applications" google-chrome
+brew cask install --appdir="~/Applications" java
+brew cask install --appdir="~/Applications" mailbox
+brew cask install --appdir="~/Applications" mumble
+brew cask install --appdir="~/Applications" sketch
+brew cask install --appdir="~/Applications" skype
+brew cask install --appdir="~/Applications" slack
+brew cask install --appdir="~/Applications" spotify # Concentration
+brew cask install --appdir="~/Applications" spectacle # Windows management
+brew cask install --appdir="~/Applications" steam
+brew cask install --appdir="~/Applications" sublime-text # Best text editor
+brew cask install --appdir="~/Applications" transmit # FTP slavery
+brew cask install --appdir="~/Applications" utorrent
+brew cask install --appdir="~/Applications" vlc
 
 ### Hard-core development apps
 brew cask install --appdir="~/Applications" intellij-idea-ce
@@ -47,16 +47,16 @@ brew cask install --appdir="~/Applications" webstorm
 
 ### Other essentials
 brew install git-flow
-brew install wget
+brew install ifstat # To get money back from internet providers
+brew install imagemagick
 brew install pow # Easy proxying
 brew install sbt
-brew install imagemagick
-brew install ifstat # To get money back from internet providers
+brew install wget
 
 # cleanup
 brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
 
 # Front-end development
-sudo gem install sass
+sudo gem install sass # Optional, gulp-sass will install node-sass so maybe not needed at all
 sudo npm install gulp -g
