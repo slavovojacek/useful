@@ -1,4 +1,22 @@
-configs
-=======
+Contains some essential configs, scripts, and setup files.
 
-Essential config files, feel free to improve.
+### bash
+
+- `install.sh`: an awesome Mac setup script
+- `profile.sh`: my preferred .bash_profile setting
+- `sv.terminal`: my preferred terminal theme
+
+### git
+
+- `push.sh`: a bash script which spits out your changes, tells you which branch you will be commiting to and displays your commit message (worth aliasing)
+- `release.sh`: a bash script which tags and pushes your latest code (worth aliasing)
+- `useful-commands.txt`: some of the more useful git commands I have stumbled across
+
+### phpStorm
+
+- `SV.icls`: not really sure, but I am guessing my custom theme settings
+- `settings.jar`: general editor settings
+
+### sublime
+
+- `user-settings`: my preferred sublime theme
