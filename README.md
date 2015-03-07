@@ -4,6 +4,7 @@ Please DO fork and improve.
 
 #### bash
 
+- `ds-store-abomination.sh`: a one-liner to abominate .DS_Store
 - `install.sh`: an awesome Mac setup script
 - `profile.sh`: my preferred .bash_profile setting
 - `sv.terminal`: my preferred terminal theme
@@ -12,7 +13,7 @@ Please DO fork and improve.
 
 - `push.sh`: a bash script which spits out your changes, tells you which branch you will be commiting to and displays your commit message (worth aliasing)
 - `release.sh`: a bash script which tags and pushes your latest code (worth aliasing)
-- `useful-commands.txt`: some of the more useful git commands I have stumbled across
+- `useful-commands.sh`: some of the more useful git commands I have stumbled across
 
 #### phpStorm
 
