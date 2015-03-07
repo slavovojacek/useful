@@ -39,6 +39,7 @@ brew cask install --appdir="~/Applications" phpstorm
 brew cask install --appdir="~/Applications" webstorm
 
 ### Other essentials
+brew install git-flow
 brew install wget
 brew install pow # Easy proxying
 brew install sbt
