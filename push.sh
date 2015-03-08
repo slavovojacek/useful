@@ -5,28 +5,29 @@ branch_name=${branch_name##refs/heads/}
 branch_name=${branch_name:-HEAD}
 
 git diff HEAD --stat
-printf "\n\n"
+printf "\n"
 git status
+printf "\n"
 
-printf "\n\n\nDo you wish to commit and push to branch ${branch_name}?\nThe commit message is: ${1}\n"
+printf "\nDo you wish to commit and push to branch ${branch_name}?\nThe commit message is: ${1}\n"
 
 select yn in "Yes" "No"; do
-    case $yn in
-        Yes )
-		# Removes all ._ and .DS_Store files
+	case $yn in
+		Yes )
+				# If not in .gitignore (they should be), removes all ._ and .DS_Store files
 
-		find . -name ".DS_Store" -print0 | xargs -0 rm -rf
-		find . -name "._*" -print0 | xargs -0 rm -rf
-		
-		# Runs all the git commands
+				find . -name ".DS_Store" -print0 | xargs -0 rm -rf
+				find . -name "._*" -print0 | xargs -0 rm -rf
 
-		git add -A
-		git commit -m "${1}"
-		git push origin ${branch_name}
-		
-		break;;
-        No )
-		echo "Ok, maybe next time :-)"
-		exit;;
-    esac
+				# Runs all the git commands
+
+				git add -A
+				git commit -m "${1}"
+				git push origin ${branch_name}
+
+				break;;
+		No )
+				echo "Ok, maybe next time :-)"
+				exit;;
+	esac
 done
