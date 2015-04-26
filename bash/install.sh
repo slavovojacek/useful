@@ -10,14 +10,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
 
-### Makes it easier to update when installed via Homebrew
+# Makes it easier to update when installed via Homebrew
 brew install git # The best version-control
 brew install node
 brew install python
 brew install ruby
 brew install scala
 
-### Core apps
+# Core apps
 brew cask install --appdir="~/Applications" adobe-creative-cloud
 brew cask install --appdir="~/Applications" appcleaner
 brew cask install --appdir="~/Applications" dash
@@ -40,12 +40,13 @@ brew cask install --appdir="~/Applications" transmit # FTP slavery
 brew cask install --appdir="~/Applications" utorrent
 brew cask install --appdir="~/Applications" vlc
 
-### Hard-core development apps
+# Hard-core development apps
 brew cask install --appdir="~/Applications" intellij-idea-ce
 brew cask install --appdir="~/Applications" phpstorm
 brew cask install --appdir="~/Applications" webstorm
 
-### Other essentials
+# Other essentials
+brew cask install --appdir="~/Applications" heroku-toolbelt
 brew install git-flow
 brew install ifstat # To get money back from internet providers
 brew install imagemagick
@@ -53,10 +54,10 @@ brew install pow # Easy proxying
 brew install sbt
 brew install wget
 
-# cleanup
+# Cleanup
 brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
 
 # Front-end development
-sudo gem install sass # Optional, gulp-sass will install node-sass so maybe not needed at all
-sudo npm install gulp -g
+sudo npm install -g gulp
+sudo npm install -g divshot-cli

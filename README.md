@@ -7,6 +7,7 @@ Please DO fork and improve.
 - `ds-store-abomination.sh`: a one-liner to abominate .DS_Store
 - `install.sh`: an awesome Mac setup script
 - `profile.sh`: my preferred .bash_profile setting
+- `some-commands.sh`: some useful commands I use
 - `sv.terminal`: my preferred terminal theme
 
 #### git
@@ -15,7 +16,7 @@ Please DO fork and improve.
 - `release.sh`: a bash script which tags and pushes your latest code (worth aliasing)
 - `useful-commands.sh`: some of the more useful git commands I have stumbled across
 
-#### phpStorm
+#### intellij (Web Storm and PHP Storm)
 
 - `SV.icls`: not really sure, but I am guessing my custom theme settings
 - `settings.jar`: general editor settings
