@@ -24,3 +24,4 @@ Please DO fork and improve.
 #### sublime
 
 - `user-settings`: my preferred sublime theme
+- `pakage-controle.sh`: Package Control install instructions
