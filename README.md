@@ -8,6 +8,7 @@ Please DO fork and improve.
 - `install.sh`: an awesome Mac setup script
 - `profile.sh`: my preferred .bash_profile setting
 - `some-commands.sh`: some useful commands I use
+- `ssh.sh`: SSH Key setup instructions
 - `sv.terminal`: my preferred terminal theme
 
 #### git

@@ -1,3 +1,7 @@
+# Sets git User Name and Email globally
+git config --global user.name "Name Surname"
+git config --global user.email "email@address.com"
+
 # Gets stats on against last commit.
 git diff HEAD --stat
 
