@@ -48,9 +48,11 @@ brew cask install --appdir="~/Applications" webstorm
 
 # Other essentials
 brew cask install --appdir="~/Applications" heroku-toolbelt
+
 brew install git-flow
 brew install ifstat # To get money back from internet providers
 brew install imagemagick
+brew install mongodb
 brew install pow # Easy proxying
 brew install sbt
 brew install wget
