@@ -20,6 +20,7 @@ brew install scala
 # Core apps
 brew cask install --appdir="~/Applications" adobe-creative-cloud
 brew cask install --appdir="~/Applications" appcleaner
+brew cask install --appdir="~/Applications" boom
 brew cask install --appdir="~/Applications" dash
 brew cask install --appdir="~/Applications" dashlane
 brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
