@@ -9,11 +9,8 @@ heroku git:remote -a app-name
 git remote add staging staging-app-git-url
 
 # Mongo
-
-# Does not seem to work properly with --with-openssl
-brew install mongodb
-# For the App
-brew cask install --appdir="~/Applications" mongodb
+brew install mongodb # Does not seem to work properly with --with-openssl
+brew cask install --appdir="~/Applications" mongodb # The App
 
 mongorestore {DUMP}
 mongod --dbpath {PATH_TO_DB}
