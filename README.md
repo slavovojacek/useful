@@ -19,7 +19,7 @@ Please DO fork and improve.
 
 #### JetBrains (Web Storm and PHP Storm)
 
-- `SV.icls`: not really sure, but I am guessing my custom theme settings
+- `God.icls`: complementary colour scheme
 - `settings.jar`: general editor settings
 
 #### sublime
