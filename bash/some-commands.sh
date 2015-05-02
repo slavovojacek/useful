@@ -3,6 +3,7 @@ divshot login
 divshot push development
 divshot push staging
 divshot promote staging production
+divshot domains:add www.example.com
 
 # Heroku
 heroku git:remote -a app-name

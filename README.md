@@ -17,7 +17,7 @@ Please DO fork and improve.
 - `release.sh`: a bash script which tags and pushes your latest code (worth aliasing)
 - `useful-commands.sh`: some of the more useful git commands I have stumbled across
 
-#### intellij (Web Storm and PHP Storm)
+#### JetBrains (Web Storm and PHP Storm)
 
 - `SV.icls`: not really sure, but I am guessing my custom theme settings
 - `settings.jar`: general editor settings
