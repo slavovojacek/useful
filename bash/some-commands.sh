@@ -15,3 +15,6 @@ brew cask install --appdir="~/Applications" mongodb # The App
 
 mongorestore {DUMP}
 mongod --dbpath {PATH_TO_DB}
+
+# ifstat
+nano ~/stats && ifstat -z -t -T -n >> ~/stats
