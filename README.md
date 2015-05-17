@@ -1,7 +1,5 @@
 Contains some essential configs, scripts, and setup files.
 
-Please DO fork and improve.
-
 #### bash
 
 - `ds-store-abomination.sh`: a one-liner to abominate .DS_Store
