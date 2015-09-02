@@ -63,5 +63,4 @@ brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
 
 # Front-end development
-sudo npm install -g gulp
-sudo npm install -g divshot-cli
+sudo npm install divshot-cli gulp npm-check-updates typescript -g
