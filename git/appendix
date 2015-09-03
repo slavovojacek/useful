@@ -2,6 +2,13 @@
 git config --global user.name "Name Surname"
 git config --global user.email "email@address.com"
 
+# Credential storage allow cache
+git config --global credential.helper cache
+
+# Default remote and branch settings
+git config remote.pushdefault origin
+git config push.default current
+
 # Gets stats on against last commit.
 git diff HEAD --stat
 
