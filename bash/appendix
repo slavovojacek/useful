@@ -21,3 +21,7 @@ nano ~/stats && ifstat -z -t -T -n >> ~/stats
 
 # git-lfs
 git lfs track "*.psd"
+
+# imagemagick
+# for more info see http://stackoverflow.com/questions/27267073/imagemagick-lossless-max-compression-for-png/27269509#27269509
+mogrify -path smaller -resize 60x60% -quality 80 -format jpg *.png
