@@ -6,8 +6,8 @@ divshot promote staging production
 divshot domains:add www.example.com
 
 # Heroku
-heroku git:remote -a app-name
-git remote add staging staging-app-git-url
+git remote add {ENV|staging,production,..} {APP_GIT_URL}
+heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-php --app {APP_NAME}
 
 # Mongo
 brew install mongodb # Does not seem to work properly with --with-openssl
@@ -18,3 +18,6 @@ mongod --dbpath {PATH_TO_DB}
 
 # ifstat
 nano ~/stats && ifstat -z -t -T -n >> ~/stats
+
+# git-lfs
+git lfs track "*.psd"

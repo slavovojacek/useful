@@ -8,7 +8,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #
 # Make sure to run brew update and brew upgrade periodically
 
-brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+brew tap caskroom/fonts
 
 # Makes it easier to update when installed via Homebrew
 brew install git
@@ -25,24 +27,24 @@ brew cask install --appdir="~/Applications" appcleaner
 brew cask install --appdir="~/Applications" boom
 brew cask install --appdir="~/Applications" dash
 brew cask install --appdir="~/Applications" dashlane
-brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
+brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" gitx
-brew cask install --appdir="~/Applications" google-drive # hmmmmmmmm
+brew cask install --appdir="~/Applications" google-drive
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" mailbox
 brew cask install --appdir="~/Applications" mumble
 brew cask install --appdir="~/Applications" sketch
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" slack
-brew cask install --appdir="~/Applications" spotify # Concentration
-brew cask install --appdir="~/Applications" spectacle # Windows management
+brew cask install --appdir="~/Applications" spotify
+brew cask install --appdir="~/Applications" spectacle
 brew cask install --appdir="~/Applications" steam
-brew cask install --appdir="~/Applications" sublime-text # Best text editor
-brew cask install --appdir="~/Applications" transmit # FTP slavery
+brew cask install --appdir="~/Applications" sublime-text
+brew cask install --appdir="~/Applications" transmit
 brew cask install --appdir="~/Applications" utorrent
 brew cask install --appdir="~/Applications" vlc
 
-# Hard-core development apps
+# Hard-core apps
 brew cask install --appdir="~/Applications" intellij-idea-ce
 brew cask install --appdir="~/Applications" phpstorm
 brew cask install --appdir="~/Applications" webstorm
@@ -51,10 +53,12 @@ brew cask install --appdir="~/Applications" webstorm
 brew cask install --appdir="~/Applications" heroku-toolbelt
 
 brew install git-flow-avh
-brew install ifstat # To get money back from internet providers
+brew install git-lfs
+
+brew install ifstat
 brew install imagemagick
 brew install mongodb
-brew install pow # Easy proxying
+brew install pow
 brew install sbt
 brew install wget
 
@@ -62,5 +66,5 @@ brew install wget
 brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
 
-# Front-end development
+# Useful npm packages
 sudo npm install divshot-cli gulp npm-check-updates typescript -g
