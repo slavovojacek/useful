@@ -42,6 +42,12 @@ git clean -f -x -d
 # Allow empty commit
 git commit --allow-empty -m "Message"
 
+# Stage for commit in chunks
+git add -p
+
+# Stage for commit with extreme granularity
+git add -e
+
 # God command: Forever remove files or folders from history
 git filter-branch --index-filter \
 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD

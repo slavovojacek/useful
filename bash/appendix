@@ -25,3 +25,18 @@ git lfs track "*.psd"
 # imagemagick
 # for more info see http://stackoverflow.com/questions/27267073/imagemagick-lossless-max-compression-for-png/27269509#27269509
 mogrify -path smaller -resize 60x60% -quality 80 -format jpg *.png
+
+# safe remove on Linux
+shred -n 96 -z -u topsecret.txt
+
+# safe remove on MacOS
+srm -m -z -v topsecret.txt
+
+# tar and zip
+tar -cfvz archive.tar.gz files/file1 files/file2
+tar -cfvz archive.tar.gz files/*
+
+tar -xfvz archive.tar.gz
+
+zip -v -e pwd.zip pwds/pwd.txt
+zip -v -er pwd.zip pwds/
