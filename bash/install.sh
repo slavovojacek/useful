@@ -11,10 +11,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask # Makes it easier to install mac apps
 
 # Makes it easier to update when installed via Homebrew
-brew install git # The best version-control
+brew install git
 brew install node
 brew install python
 brew install ruby
+
+brew cask install java
 brew install scala
 
 # Core apps
@@ -27,7 +29,6 @@ brew cask install --appdir="~/Applications" dropbox # hmmmmmmmm
 brew cask install --appdir="~/Applications" gitx
 brew cask install --appdir="~/Applications" google-drive # hmmmmmmmm
 brew cask install --appdir="~/Applications" google-chrome
-brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" mailbox
 brew cask install --appdir="~/Applications" mumble
 brew cask install --appdir="~/Applications" sketch
@@ -49,7 +50,7 @@ brew cask install --appdir="~/Applications" webstorm
 # Other essentials
 brew cask install --appdir="~/Applications" heroku-toolbelt
 
-brew install git-flow
+brew install git-flow-avh
 brew install ifstat # To get money back from internet providers
 brew install imagemagick
 brew install mongodb
@@ -62,5 +63,4 @@ brew cleanup --force
 rm -f -r /Library/Caches/Homebrew/*
 
 # Front-end development
-sudo npm install -g gulp
-sudo npm install -g divshot-cli
+sudo npm install divshot-cli gulp npm-check-updates typescript -g
