@@ -55,6 +55,7 @@ brew cask install --appdir="~/Applications" heroku-toolbelt
 brew install git-flow-avh
 brew install git-lfs
 
+brew install awscli
 brew install ifstat
 brew install imagemagick
 brew install mongodb

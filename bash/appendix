@@ -40,3 +40,10 @@ tar -xfvz archive.tar.gz
 
 zip -v -e pwd.zip pwds/pwd.txt
 zip -v -er pwd.zip pwds/
+
+unzip pwd.zip
+
+# aws
+aws configure
+# see http://docs.aws.amazon.com/general/latest/gr/rande.html for regions
+# see https://aws.amazon.com/cli/ for documentation
