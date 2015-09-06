@@ -51,6 +51,7 @@ brew cask install --appdir="~/Applications" webstorm
 
 # Other essentials
 brew cask install --appdir="~/Applications" heroku-toolbelt
+brew cask install google-cloud-sdk
 
 brew install git-flow-avh
 brew install git-lfs
