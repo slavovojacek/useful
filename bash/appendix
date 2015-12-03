@@ -55,3 +55,15 @@ unzip pwd.zip
 aws configure
 # see http://docs.aws.amazon.com/general/latest/gr/rande.html for regions
 # see https://aws.amazon.com/cli/ for documentation
+
+# ASP.NET 5
+brew tap aspnet/dnx
+brew update
+brew install dnvm
+
+echo >> "source dnvm.sh" ~/.bash_profile
+
+dnvm upgrade
+
+sudo npm install -g yo gulp
+sudo npm install -g generator-aspnet
