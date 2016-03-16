@@ -67,3 +67,13 @@ dnvm upgrade
 
 sudo npm install -g yo gulp
 sudo npm install -g generator-aspnet
+
+# run {command} every 60 seconds
+watch -n 60 'cmd'
+
+# gets number of lines
+wc -l file.ext
+
+# splits file into chunks after every 1000 lines
+split -l 1000 file.ext new
+# more info re file splitting @ http://askubuntu.com/questions/54579/how-to-split-larger-files-into-smaller-parts
