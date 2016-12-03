@@ -9,9 +9,6 @@ export EDITOR=nano
 ### Increase bash history to a million commands (should be enough)
 HISTFILESIZE=10000000
 
-### Add Alias for push.sh (can be found in the same repo dir)
-alias push='bash push.sh'
-
 ### Alias for ls
 alias ls='ls -G'
 
