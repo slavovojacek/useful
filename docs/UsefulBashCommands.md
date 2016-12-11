@@ -1,3 +1,5 @@
+# Useful Bash Commands
+
 # pow
 sudo pow --install-system
 pow --install-local
@@ -77,3 +79,5 @@ wc -l file.ext
 # splits file into chunks after every 1000 lines
 split -l 1000 file.ext new
 # more info re file splitting @ http://askubuntu.com/questions/54579/how-to-split-larger-files-into-smaller-parts
+
+EOM.

@@ -1,3 +1,5 @@
+# Useful Git Commands
+
 # Sets git User Name and Email globally
 git config --global user.name "Name Surname"
 git config --global user.email "email@address.com"
@@ -62,3 +64,5 @@ git filter-branch --index-filter \
 rm -rf .git/refs/original/ && \
 git reflog expire --all && \
 git gc --aggressive --prune
+
+EOM.
