@@ -2,6 +2,7 @@
 
 - Adobe CC (http://www.adobe.com/uk/creativecloud/desktop-app.html)
 - Dashlane (https://www.dashlane.com/)
+- Flux (https://justgetflux.com)
 - Google Chrome (https://www.google.com/chrome/browser/desktop/index.html)
 - Google Chrome Canary (https://www.google.co.uk/chrome/browser/canary.html)
 - Sketch (https://www.sketchapp.com/)
