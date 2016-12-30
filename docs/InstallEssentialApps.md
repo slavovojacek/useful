@@ -11,6 +11,7 @@
 - Spotify (https://www.spotify.com/uk/download/mac/)
 - Spectacle (https://www.spectacleapp.com/)
 - Sublime Text 3 (https://www.sublimetext.com/3)
+  - Then `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Veertu (https://veertu.com/) + Ubuntu (https://www.ubuntu.com/download/desktop)
 
 - WebStorm (https://www.jetbrains.com/webstorm/download/)
