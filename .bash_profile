@@ -21,4 +21,5 @@ function gh {
 }
 
 ### A funny alias to replace ls and cd after a person has left their laptop unlocked
-alias funny='printf "\n\nAn extensive policy breach detected. Please stay at your desk as security personel will assist you out of the building.\n\n"'
+alias ls='printf "\n\nAn extensive policy breach detected. Please stay at your desk as security personnel will assist you out of the building.\n\n"'
+alias cd='printf "\n\nAn extensive policy breach detected. Please stay at your desk as security personnel will assist you out of the building.\n\n"'
